@@ -26,6 +26,7 @@ const config = {
   type: Phaser.AUTO,
   ...SHARED_CONFIG,
   pixelArt: true,
+  parent: 'game-container',
   physics: {
     default: 'arcade',
     arcade: {
