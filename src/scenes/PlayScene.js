@@ -6,7 +6,8 @@ const PIPES_TO_RENDER = 4;
 class PlayScene extends BaseScene {
 
   constructor(config) {
-    super('PlayScene', config);
+    super('PlayScene');
+    this.config = config
 
     this.bird = null;
     this.pipes = null;
